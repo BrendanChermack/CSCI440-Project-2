@@ -53,9 +53,20 @@ The final model prioritizes reducing false negatives (missed risky applicants), 
 
 ## How to Run
 
-1. Install dependencies:
+1. Create and activate a Virtual Environment
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate
+   ```
+
+2. Install dependencies:
+   ```bash
    pip install -r requirements.txt
+   ```
 
-2. Open Project2.ipynb
+3. Open Jupyter Notebook:
+   ```bash
+   jupyter notebook Project2.ipynb
+   ```
 
-3. Run all cells in order.
+4. Run all cells in order.
